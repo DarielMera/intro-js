@@ -9,16 +9,27 @@ const students = [{
     age: 32,
     gender: 'male',
 }, {
-    firstName: 'khystofer',
-    lastName: 'gil',
-    age: 30,
-    gender: 'male',
+    firstName: 'Diana',
+    lastName: 'Tineo',
+    age: 32,
+    gender: 'female',
 }, {
-    firstName: 'gaby',
-    lastName: 'taylor',
-    age: 22,
-    gender: 'female'
+    firstName: 'Sebas',
+    lastName: 'Anty',
+    age: 21,
+    gender: 'male'
+}, {
+    firstName: 'Many',
+    lastName: 'Toribio',
+    age: 28,
+    gender: 'male'
 }]
+
+
+
+
+
+
 
 function returnsFullName(person){
 const fullName = `${person.firstName} ${person.lastName} `
