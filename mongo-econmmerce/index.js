@@ -74,6 +74,9 @@ const getUser = async ( ) => {
  // arrays are important too,    
 // this is what we are going to be doing 
 // once we have our collections
+
+
+
 dob {
 
 
@@ -81,6 +84,7 @@ $exists: true , // boolean if it is define return it..this is like filtering....
 //$gt: // this is the greater then operator//
 $lt: // less then operator
 $in: // takes in an array ex $in['green', 'red']
+collection.find(field: {$function})
 $all: // takes in an array .....ex: give me all the document that has this values
 
 

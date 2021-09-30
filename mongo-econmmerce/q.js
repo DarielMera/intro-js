@@ -89,6 +89,7 @@ const createTransactions = async ({customerId, inventoryId, date}) => {
 
 const run = async () => {
   const client = await createClient()
+  
   const customer = await createCustomer({
     custName: faker.name.firstName(), 
     phoneNumber: faker.phone.phoneNumber(), 
@@ -106,6 +107,7 @@ const run = async () => {
       prodColor: faker.commerce.color(), 
   
     })
+
     const transaction = await createTransactions({
       customerId: customer.insertedId, 
       inventoryId: inventory.insertedId, 
