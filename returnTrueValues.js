@@ -45,12 +45,18 @@ returnTrueBoolean();
  */
 
  // USING ---- FOR CLASSIC LOOP -----
+
 function returnTrueBoolean() {
 
-    let total = 0;
+    let total = 0
+
     for (let i=0; i < arrBool.length; i++ ) {
+        
          arrBool[i] ? total++ :  undefined
+
     console.log(total)
 }
 
 returnTrueBoolean()
+
+

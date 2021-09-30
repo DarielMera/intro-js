@@ -1,6 +1,5 @@
 // 50 
 
-
 /*
 up to 50
 use modulos 6%3 = 0 
@@ -12,8 +11,8 @@ if import {  } from "module";
 if divisible by 3 we do fizz 
 if divisible by 5 we do buzz
 if divisible by both then fizzbuzz
-
 */
+
 
 var list = [];
 function fizzfuzz() {
@@ -28,8 +27,11 @@ function fizzfuzz() {
             list.push("fizzbuzz")
             // console.log("fizzbuzz")
         } else {
-            console.log(i)
+            list.push(i)
+            // console.log(i)
         }
     }
 }
+
  fizzfuzz()
+console.table(list)
